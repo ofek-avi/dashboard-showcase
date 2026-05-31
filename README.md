@@ -1,27 +1,47 @@
 # Tester Monitor Dashboard
 
-Private production code. Public showcase only.
+Public showcase for a private internal operations system.
+
+The real source code and production configuration are private. This repository contains only sanitized screenshots and a project explanation.
+
+## Dashboard Overview
 
 ![Tester Monitor Dashboard overview](assets/dashboard-overview.png)
 
-## What This Project Does
+## Unit Finder
 
-Tester Monitor Dashboard is an internal lab operations dashboard built to give one clear view of tester availability, usage and schedule status.
+![Unit Finder dashboard](assets/unit-finder.png)
 
-The system combines:
+## What This Project Solves
 
-- Tester status cards with traffic-light colors.
-- Real activity detection from the machine, not only an open remote session.
-- Outlook/calendar assignment awareness.
-- Windows and Linux agent reporting.
-- Remote connection support for lab machines.
-- Temperature, IG-XL/Teradyne version and program/project visibility when available.
-- A clean operations view split by lab site and tester family.
+The dashboard was built to make tester operations easier to understand at a glance without calling people, opening multiple remote sessions or guessing which machine is actually active.
+
+It provides a clean operational layer for:
+
+- Live tester status and traffic-light availability.
+- Stable color rules that reduce false busy/free signals.
+- Agent health and heartbeat visibility.
+- Calendar-aware status context.
+- Remote action entry points for internal operators.
+- Unit finding and recent path lookup.
+- Masked ownership and run context for faster decisions.
+- Public-safe documentation that does not expose internal identifiers.
+
+## Unit Finder Capability
+
+The Unit Finder view helps operators search for a unit, understand where it was last seen, and connect that information to recent agent reports and run history.
+
+For privacy, the public screenshot uses masked unit IDs, generic tester groups and fake route data. The production system keeps real machine names, unit IDs, IPs and ownership data private.
 
 ## My Work
 
-I designed and implemented the dashboard experience, the status rules, the agent flow, the installation/repair scripts, the protected code download flow and the documentation for daily use.
+I designed and implemented the dashboard experience, status logic, agent reporting flow, protected code-download flow, remote install/repair helpers, Unit Finder view, operational documentation and public-safe portfolio presentation.
 
-## Access Note
+## Privacy And Access
 
-The real production repository is private because it contains internal automation, lab configuration and operational code. This repository intentionally contains only images and explanation for portfolio viewing.
+This repository intentionally contains only:
+
+- `README.md`
+- sanitized showcase images
+
+It does not include production code, machine names, tester names, IP addresses, unit IDs, internal counts, credentials, customer data or lab configuration.

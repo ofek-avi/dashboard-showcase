@@ -8,6 +8,10 @@ The real source code and production configuration are private. This repository c
 
 ![Tester Monitor Dashboard overview](assets/dashboard-overview.png)
 
+## Data Dashboard
+
+![Tester Monitor data dashboard](assets/data-dashboard.png)
+
 ## Unit Finder
 
 ![Unit Finder dashboard](assets/unit-finder.png)
@@ -25,6 +29,7 @@ It provides a clean operational layer for:
 - Live tester status and traffic-light availability.
 - Stable color rules that reduce false busy/free signals.
 - Agent health and heartbeat visibility.
+- Data views for trends, usage patterns and operational summaries.
 - Calendar-aware status context.
 - Remote action entry points for internal operators.
 - Unit finding and recent path lookup.
@@ -34,10 +39,15 @@ It provides a clean operational layer for:
 ## Recent Tester Platform Work
 
 - Built a public-safe showcase layer that explains the system without exposing internal data.
+- Added a Data Dashboard presentation for trends, usage patterns and operational summaries with all sensitive values masked.
 - Added Unit Finder presentation for locating units and reviewing recent observations.
 - Documented stable color logic for busy, idle, available and offline states.
 - Highlighted the agent reporting flow across Windows and Linux machines.
 - Clarified which parts are private and which parts are safe to show publicly.
+
+## Data Dashboard Capability
+
+The Data Dashboard shows operational trends, relative activity, dashboard usage and high-level status breakdowns. The public version uses anonymized labels, masked totals and sample data so the viewer can understand the product without seeing tester names, IPs, exact counts, internal locations or production identifiers.
 
 ## Unit Finder Capability
 
@@ -47,7 +57,7 @@ For privacy, the public screenshot uses masked unit IDs, generic tester groups a
 
 ## My Work
 
-I designed and implemented the dashboard experience, status logic, agent reporting flow, protected code-download flow, remote install/repair helpers, Unit Finder view, operational documentation and public-safe portfolio presentation.
+I designed and implemented the dashboard experience, status logic, data reporting view, agent reporting flow, protected code-download flow, remote install/repair helpers, Unit Finder view, operational documentation and public-safe portfolio presentation.
 
 ## Privacy And Access
 

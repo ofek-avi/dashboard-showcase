@@ -12,6 +12,10 @@ The real source code and production configuration are private. This repository c
 
 ![Unit Finder dashboard](assets/unit-finder.png)
 
+## Platform Capabilities
+
+![Tester platform capabilities](assets/platform-capabilities.png)
+
 ## What This Project Solves
 
 The dashboard was built to make tester operations easier to understand at a glance without calling people, opening multiple remote sessions or guessing which machine is actually active.
@@ -26,6 +30,14 @@ It provides a clean operational layer for:
 - Unit finding and recent path lookup.
 - Masked ownership and run context for faster decisions.
 - Public-safe documentation that does not expose internal identifiers.
+
+## Recent Tester Platform Work
+
+- Built a public-safe showcase layer that explains the system without exposing internal data.
+- Added Unit Finder presentation for locating units and reviewing recent observations.
+- Documented stable color logic for busy, idle, available and offline states.
+- Highlighted the agent reporting flow across Windows and Linux machines.
+- Clarified which parts are private and which parts are safe to show publicly.
 
 ## Unit Finder Capability
 

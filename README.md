@@ -1,8 +1,8 @@
 # Tester Monitor Dashboard
 
-Public showcase for a private internal operations system.
+Public showcase for a private internal operations platform.
 
-The real source code and production configuration are private. This repository contains only sanitized screenshots and a project explanation.
+The real source code, machine configuration and production data are private. This repository contains only sanitized screenshots and a professional project explanation.
 
 ## Dashboard Overview
 
@@ -16,48 +16,35 @@ The real source code and production configuration are private. This repository c
 
 ![Unit Finder dashboard](assets/unit-finder.png)
 
-## Platform Capabilities
+## Capabilities And Impact
 
 ![Tester platform capabilities](assets/platform-capabilities.png)
 
 ## What This Project Solves
 
-The dashboard was built to make tester operations easier to understand at a glance without calling people, opening multiple remote sessions or guessing which machine is actually active.
+The platform helps operators understand tester availability, tester health and unit movement without manually opening many remote sessions, calling people for status or searching through disconnected files.
 
-It provides a clean operational layer for:
+It provides a clear operational layer for:
 
-- Live tester status and traffic-light availability.
-- Stable color rules that reduce false busy/free signals.
-- Agent health and heartbeat visibility.
-- Data views for trends, usage patterns and operational summaries.
-- Calendar-aware status context.
+- Live tester status across busy, idle, available and offline states.
+- Stable traffic-light rules that reduce false busy/free signals.
+- Windows and Linux agent reporting for heartbeat, activity and machine health.
+- Calendar-aware status context and booking awareness.
+- Data views for retained history, relative usage trends and operational summaries.
+- Unit Finder flow for tracing masked units and recent observations.
 - Remote action entry points for internal operators.
-- Unit finding and recent path lookup.
-- Masked ownership and run context for faster decisions.
-- Public-safe documentation that does not expose internal identifiers.
+- Repair, install and watchdog helpers to keep reporting alive.
+- Public-safe documentation that explains the product without exposing internal identifiers.
 
-## Recent Tester Platform Work
+## Work Impact
 
-- Built a public-safe showcase layer that explains the system without exposing internal data.
-- Added a Data Dashboard presentation for trends, usage patterns and operational summaries with all sensitive values masked.
-- Added Unit Finder presentation for locating units and reviewing recent observations.
-- Documented stable color logic for busy, idle, available and offline states.
-- Highlighted the agent reporting flow across Windows and Linux machines.
-- Clarified which parts are private and which parts are safe to show publicly.
+Estimated impact: **30-90 minutes saved per active workday** for repeated tester checks, handoffs and status verification.
 
-## Data Dashboard Capability
-
-The Data Dashboard shows operational trends, relative activity, dashboard usage and high-level status breakdowns. The public version uses anonymized labels, masked totals and sample data so the viewer can understand the product without seeing tester names, IPs, exact counts, internal locations or production identifiers.
-
-## Unit Finder Capability
-
-The Unit Finder view helps operators search for a unit, understand where it was last seen, and connect that information to recent agent reports and run history.
-
-For privacy, the public screenshot uses masked unit IDs, generic tester groups and fake route data. The production system keeps real machine names, unit IDs, IPs and ownership data private.
+This is a conservative portfolio estimate, not a measured production KPI. The saving comes from replacing manual status checks, repeated remote connection attempts, searching for the right machine/unit context and asking around for availability.
 
 ## My Work
 
-I designed and implemented the dashboard experience, status logic, data reporting view, agent reporting flow, protected code-download flow, remote install/repair helpers, Unit Finder view, operational documentation and public-safe portfolio presentation.
+I designed and implemented the dashboard experience, status logic, data reporting view, Unit Finder flow, agent reporting pipeline, protected code-download flow, remote install/repair helpers, operational documentation and public-safe portfolio presentation.
 
 ## Privacy And Access
 
@@ -66,4 +53,6 @@ This repository intentionally contains only:
 - `README.md`
 - sanitized showcase images
 
-It does not include production code, machine names, tester names, IP addresses, unit IDs, internal counts, credentials, customer data or lab configuration.
+It does not include production code, tester names, employee names, IP addresses, exact tester counts, unit IDs, internal locations, credentials, customer data or lab configuration.
+
+Source code: private.
